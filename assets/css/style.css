@@ -1,0 +1,33 @@
+ /* Estilo para el fondo del cuerpo */
+ body {
+    background-color: #f8f9fa;
+ }
+
+/* Estilo para el contenedor principal */
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Estilo para las tarjetas */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Estilo para las imágenes del carrusel */
+.carousel-item img {
+    max-width: 90%;
+    height: auto;
+}
+/* Cambia el color del icono previo */
+.carousel-control-prev-icon {
+filter: invert(70%) sepia(13%) saturate(1069%) hue-rotate(160deg) brightness(91%) contrast(90%);
+}
+
+/* Cambia el color del icono siguiente */
+.carousel-control-next-icon {
+filter: invert(70%) sepia(13%) saturate(1069%) hue-rotate(160deg) brightness(91%) contrast(90%);
+}
